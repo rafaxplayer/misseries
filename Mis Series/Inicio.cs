@@ -386,14 +386,21 @@ namespace Mis_Series
             }
         }
 
-        private void futureButton1_Click(object sender, EventArgs e)
+        private void buttonClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void futureButton2_Click(object sender, EventArgs e)
+        private void buttonMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void buttonMaximize_Click(object sender, EventArgs e)
+        {
+
+            this.WindowState = this.WindowState == FormWindowState.Maximized ? FormWindowState.Normal : FormWindowState.Maximized;
+        }
+
     }
 }

@@ -93,6 +93,17 @@
             Bloom bloom55 = new Bloom();
             Bloom bloom56 = new Bloom();
             Bloom bloom57 = new Bloom();
+            Bloom bloom58 = new Bloom();
+            Bloom bloom59 = new Bloom();
+            Bloom bloom60 = new Bloom();
+            Bloom bloom61 = new Bloom();
+            Bloom bloom62 = new Bloom();
+            Bloom bloom63 = new Bloom();
+            Bloom bloom64 = new Bloom();
+            Bloom bloom65 = new Bloom();
+            Bloom bloom66 = new Bloom();
+            Bloom bloom67 = new Bloom();
+            Bloom bloom68 = new Bloom();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.listViewSeries = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -108,11 +119,12 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.futureTheme1 = new FutureTheme();
+            this.futureButton2 = new FutureButton();
+            this.futureButton1 = new FutureButton();
+            this.futureButton5 = new FutureButton();
             this.futureButton4 = new FutureButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.futureButton3 = new FutureButton();
-            this.futureButton2 = new FutureButton();
-            this.futureButton1 = new FutureButton();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -379,11 +391,12 @@
         bloom11,
         bloom12,
         bloom13};
+            this.futureTheme1.Controls.Add(this.futureButton2);
+            this.futureTheme1.Controls.Add(this.futureButton1);
+            this.futureTheme1.Controls.Add(this.futureButton5);
             this.futureTheme1.Controls.Add(this.futureButton4);
             this.futureTheme1.Controls.Add(this.pictureBox1);
             this.futureTheme1.Controls.Add(this.futureButton3);
-            this.futureTheme1.Controls.Add(this.futureButton2);
-            this.futureTheme1.Controls.Add(this.futureButton1);
             this.futureTheme1.Customization = "IiIi/yIiIv8XFxf/IiIi/zExMf8AAAD/AAAA/wAAAP8AAAD/IiIi/wAAAEb///8A/////w==";
             this.futureTheme1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.futureTheme1.Font = new System.Drawing.Font("Verdana", 8F);
@@ -400,8 +413,9 @@
             this.futureTheme1.Text = "Mis Series";
             this.futureTheme1.TransparencyKey = System.Drawing.Color.Empty;
             // 
-            // futureButton4
+            // futureButton2
             // 
+            this.futureButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             bloom14.Name = "Blend1";
             bloom14.Value = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             bloom15.Name = "Blend2";
@@ -424,7 +438,7 @@
             bloom23.Value = System.Drawing.Color.DimGray;
             bloom24.Name = "Corners";
             bloom24.Value = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.futureButton4.Colors = new Bloom[] {
+            this.futureButton2.Colors = new Bloom[] {
         bloom14,
         bloom15,
         bloom16,
@@ -436,32 +450,21 @@
         bloom22,
         bloom23,
         bloom24};
-            this.futureButton4.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD/aWlp/ygoKP8=";
-            this.futureButton4.Font = new System.Drawing.Font("Verdana", 8F);
-            this.futureButton4.Image = null;
-            this.futureButton4.Location = new System.Drawing.Point(111, 46);
-            this.futureButton4.Name = "futureButton4";
-            this.futureButton4.NoRounding = false;
-            this.futureButton4.Size = new System.Drawing.Size(112, 23);
-            this.futureButton4.TabIndex = 4;
-            this.futureButton4.Text = "Un Displayed";
-            this.futureButton4.Transparent = false;
-            this.futureButton4.Click += new System.EventHandler(this.noVistosShow);
+            this.futureButton2.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD/aWlp/ygoKP8=";
+            this.futureButton2.Font = new System.Drawing.Font("Verdana", 8F);
+            this.futureButton2.Image = null;
+            this.futureButton2.Location = new System.Drawing.Point(642, 3);
+            this.futureButton2.Name = "futureButton2";
+            this.futureButton2.NoRounding = false;
+            this.futureButton2.Size = new System.Drawing.Size(23, 21);
+            this.futureButton2.TabIndex = 7;
+            this.futureButton2.Text = "_";
+            this.futureButton2.Transparent = false;
+            this.futureButton2.Click += new System.EventHandler(this.buttonMinimize_Click);
             // 
-            // pictureBox1
+            // futureButton1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 75);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(708, 57);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // futureButton3
-            // 
+            this.futureButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             bloom25.Name = "Blend1";
             bloom25.Value = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             bloom26.Name = "Blend2";
@@ -484,7 +487,7 @@
             bloom34.Value = System.Drawing.Color.DimGray;
             bloom35.Name = "Corners";
             bloom35.Value = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.futureButton3.Colors = new Bloom[] {
+            this.futureButton1.Colors = new Bloom[] {
         bloom25,
         bloom26,
         bloom27,
@@ -496,21 +499,21 @@
         bloom33,
         bloom34,
         bloom35};
-            this.futureButton3.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD/aWlp/ygoKP8=";
-            this.futureButton3.Font = new System.Drawing.Font("Verdana", 8F);
-            this.futureButton3.Image = null;
-            this.futureButton3.Location = new System.Drawing.Point(12, 46);
-            this.futureButton3.Name = "futureButton3";
-            this.futureButton3.NoRounding = false;
-            this.futureButton3.Size = new System.Drawing.Size(93, 23);
-            this.futureButton3.TabIndex = 2;
-            this.futureButton3.Text = "+ Add Serie";
-            this.futureButton3.Transparent = false;
-            this.futureButton3.Click += new System.EventHandler(this.nuevaSerieToolStripMenuItem_Click);
+            this.futureButton1.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD/aWlp/ygoKP8=";
+            this.futureButton1.Font = new System.Drawing.Font("Verdana", 8F);
+            this.futureButton1.Image = null;
+            this.futureButton1.Location = new System.Drawing.Point(702, 4);
+            this.futureButton1.Name = "futureButton1";
+            this.futureButton1.NoRounding = false;
+            this.futureButton1.Size = new System.Drawing.Size(27, 20);
+            this.futureButton1.TabIndex = 6;
+            this.futureButton1.Text = "x";
+            this.futureButton1.Transparent = false;
+            this.futureButton1.Click += new System.EventHandler(this.buttonClose_Click);
             // 
-            // futureButton2
+            // futureButton5
             // 
-            this.futureButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.futureButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             bloom36.Name = "Blend1";
             bloom36.Value = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             bloom37.Name = "Blend2";
@@ -530,10 +533,10 @@
             bloom44.Name = "TextShade";
             bloom44.Value = System.Drawing.Color.Black;
             bloom45.Name = "Text";
-            bloom45.Value = System.Drawing.Color.White;
+            bloom45.Value = System.Drawing.Color.DimGray;
             bloom46.Name = "Corners";
             bloom46.Value = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.futureButton2.Colors = new Bloom[] {
+            this.futureButton5.Colors = new Bloom[] {
         bloom36,
         bloom37,
         bloom38,
@@ -545,21 +548,20 @@
         bloom44,
         bloom45,
         bloom46};
-            this.futureButton2.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD//////ygoKP8=";
-            this.futureButton2.Font = new System.Drawing.Font("Verdana", 8F);
-            this.futureButton2.Image = null;
-            this.futureButton2.Location = new System.Drawing.Point(681, 4);
-            this.futureButton2.Name = "futureButton2";
-            this.futureButton2.NoRounding = false;
-            this.futureButton2.Size = new System.Drawing.Size(21, 19);
-            this.futureButton2.TabIndex = 1;
-            this.futureButton2.Text = "_";
-            this.futureButton2.Transparent = false;
-            this.futureButton2.Click += new System.EventHandler(this.futureButton2_Click);
+            this.futureButton5.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD/aWlp/ygoKP8=";
+            this.futureButton5.Font = new System.Drawing.Font("Verdana", 6F);
+            this.futureButton5.Image = null;
+            this.futureButton5.Location = new System.Drawing.Point(671, 3);
+            this.futureButton5.Name = "futureButton5";
+            this.futureButton5.NoRounding = false;
+            this.futureButton5.Size = new System.Drawing.Size(25, 21);
+            this.futureButton5.TabIndex = 5;
+            this.futureButton5.Text = "■";
+            this.futureButton5.Transparent = false;
+            this.futureButton5.Click += new System.EventHandler(this.buttonMaximize_Click);
             // 
-            // futureButton1
+            // futureButton4
             // 
-            this.futureButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             bloom47.Name = "Blend1";
             bloom47.Value = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             bloom48.Name = "Blend2";
@@ -579,10 +581,10 @@
             bloom55.Name = "TextShade";
             bloom55.Value = System.Drawing.Color.Black;
             bloom56.Name = "Text";
-            bloom56.Value = System.Drawing.Color.White;
+            bloom56.Value = System.Drawing.Color.DimGray;
             bloom57.Name = "Corners";
             bloom57.Value = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.futureButton1.Colors = new Bloom[] {
+            this.futureButton4.Colors = new Bloom[] {
         bloom47,
         bloom48,
         bloom49,
@@ -594,17 +596,77 @@
         bloom55,
         bloom56,
         bloom57};
-            this.futureButton1.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD//////ygoKP8=";
-            this.futureButton1.Font = new System.Drawing.Font("Verdana", 8F);
-            this.futureButton1.Image = null;
-            this.futureButton1.Location = new System.Drawing.Point(708, 4);
-            this.futureButton1.Name = "futureButton1";
-            this.futureButton1.NoRounding = false;
-            this.futureButton1.Size = new System.Drawing.Size(21, 20);
-            this.futureButton1.TabIndex = 0;
-            this.futureButton1.Text = "x";
-            this.futureButton1.Transparent = false;
-            this.futureButton1.Click += new System.EventHandler(this.futureButton1_Click);
+            this.futureButton4.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD/aWlp/ygoKP8=";
+            this.futureButton4.Font = new System.Drawing.Font("Verdana", 8F);
+            this.futureButton4.Image = null;
+            this.futureButton4.Location = new System.Drawing.Point(117, 46);
+            this.futureButton4.Name = "futureButton4";
+            this.futureButton4.NoRounding = false;
+            this.futureButton4.Size = new System.Drawing.Size(92, 23);
+            this.futureButton4.TabIndex = 4;
+            this.futureButton4.Text = "No Vistos";
+            this.futureButton4.Transparent = false;
+            this.futureButton4.Click += new System.EventHandler(this.noVistosShow);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 75);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(708, 57);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // futureButton3
+            // 
+            bloom58.Name = "Blend1";
+            bloom58.Value = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            bloom59.Name = "Blend2";
+            bloom59.Value = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            bloom60.Name = "Blend3";
+            bloom60.Value = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            bloom61.Name = "Border1A";
+            bloom61.Value = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            bloom62.Name = "Border1B";
+            bloom62.Value = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            bloom63.Name = "Border2";
+            bloom63.Value = System.Drawing.Color.Black;
+            bloom64.Name = "Border3";
+            bloom64.Value = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            bloom65.Name = "Line1";
+            bloom65.Value = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            bloom66.Name = "TextShade";
+            bloom66.Value = System.Drawing.Color.Black;
+            bloom67.Name = "Text";
+            bloom67.Value = System.Drawing.Color.DimGray;
+            bloom68.Name = "Corners";
+            bloom68.Value = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.futureButton3.Colors = new Bloom[] {
+        bloom58,
+        bloom59,
+        bloom60,
+        bloom61,
+        bloom62,
+        bloom63,
+        bloom64,
+        bloom65,
+        bloom66,
+        bloom67,
+        bloom68};
+            this.futureButton3.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD/aWlp/ygoKP8=";
+            this.futureButton3.Font = new System.Drawing.Font("Verdana", 8F);
+            this.futureButton3.Image = null;
+            this.futureButton3.Location = new System.Drawing.Point(12, 46);
+            this.futureButton3.Name = "futureButton3";
+            this.futureButton3.NoRounding = false;
+            this.futureButton3.Size = new System.Drawing.Size(99, 23);
+            this.futureButton3.TabIndex = 2;
+            this.futureButton3.Text = "+ Nueva Serie";
+            this.futureButton3.Transparent = false;
+            this.futureButton3.Click += new System.EventHandler(this.nuevaSerieToolStripMenuItem_Click);
             // 
             // InicioForm
             // 
@@ -652,10 +714,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewImageColumn Column3;
         private FutureTheme futureTheme1;
-        private FutureButton futureButton2;
-        private FutureButton futureButton1;
         private FutureButton futureButton3;
         private FutureButton futureButton4;
+        private FutureButton futureButton5;
+        private FutureButton futureButton2;
+        private FutureButton futureButton1;
 
     }
 }

@@ -41,17 +41,6 @@
             Bloom bloom11 = new Bloom();
             Bloom bloom12 = new Bloom();
             Bloom bloom13 = new Bloom();
-            Bloom bloom25 = new Bloom();
-            Bloom bloom26 = new Bloom();
-            Bloom bloom27 = new Bloom();
-            Bloom bloom28 = new Bloom();
-            Bloom bloom29 = new Bloom();
-            Bloom bloom30 = new Bloom();
-            Bloom bloom31 = new Bloom();
-            Bloom bloom32 = new Bloom();
-            Bloom bloom33 = new Bloom();
-            Bloom bloom34 = new Bloom();
-            Bloom bloom35 = new Bloom();
             Bloom bloom14 = new Bloom();
             Bloom bloom15 = new Bloom();
             Bloom bloom16 = new Bloom();
@@ -63,14 +52,25 @@
             Bloom bloom22 = new Bloom();
             Bloom bloom23 = new Bloom();
             Bloom bloom24 = new Bloom();
+            Bloom bloom25 = new Bloom();
+            Bloom bloom26 = new Bloom();
+            Bloom bloom27 = new Bloom();
+            Bloom bloom28 = new Bloom();
+            Bloom bloom29 = new Bloom();
+            Bloom bloom30 = new Bloom();
+            Bloom bloom31 = new Bloom();
+            Bloom bloom32 = new Bloom();
+            Bloom bloom33 = new Bloom();
+            Bloom bloom34 = new Bloom();
+            Bloom bloom35 = new Bloom();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewSerie));
             this.futureTheme1 = new FutureTheme();
+            this.futureButton2 = new FutureButton();
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxCode = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new FutureButton();
-            this.futureButton2 = new FutureButton();
             this.futureTheme1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,8 +136,57 @@
             this.futureTheme1.Size = new System.Drawing.Size(437, 190);
             this.futureTheme1.SmartBounds = true;
             this.futureTheme1.TabIndex = 5;
-            this.futureTheme1.Text = "New Serie";
+            this.futureTheme1.Text = "Nueva Serie";
             this.futureTheme1.TransparencyKey = System.Drawing.Color.Empty;
+            // 
+            // futureButton2
+            // 
+            this.futureButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            bloom14.Name = "Blend1";
+            bloom14.Value = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            bloom15.Name = "Blend2";
+            bloom15.Value = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            bloom16.Name = "Blend3";
+            bloom16.Value = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            bloom17.Name = "Border1A";
+            bloom17.Value = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            bloom18.Name = "Border1B";
+            bloom18.Value = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            bloom19.Name = "Border2";
+            bloom19.Value = System.Drawing.Color.Black;
+            bloom20.Name = "Border3";
+            bloom20.Value = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            bloom21.Name = "Line1";
+            bloom21.Value = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            bloom22.Name = "TextShade";
+            bloom22.Value = System.Drawing.Color.Black;
+            bloom23.Name = "Text";
+            bloom23.Value = System.Drawing.Color.DimGray;
+            bloom24.Name = "Corners";
+            bloom24.Value = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.futureButton2.Colors = new Bloom[] {
+        bloom14,
+        bloom15,
+        bloom16,
+        bloom17,
+        bloom18,
+        bloom19,
+        bloom20,
+        bloom21,
+        bloom22,
+        bloom23,
+        bloom24};
+            this.futureButton2.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD/aWlp/ygoKP8=";
+            this.futureButton2.Font = new System.Drawing.Font("Verdana", 8F);
+            this.futureButton2.Image = null;
+            this.futureButton2.Location = new System.Drawing.Point(410, 0);
+            this.futureButton2.Name = "futureButton2";
+            this.futureButton2.NoRounding = false;
+            this.futureButton2.Size = new System.Drawing.Size(24, 23);
+            this.futureButton2.TabIndex = 6;
+            this.futureButton2.Text = "x";
+            this.futureButton2.Transparent = false;
+            this.futureButton2.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // label1
             // 
@@ -226,58 +275,9 @@
             this.button1.NoRounding = false;
             this.button1.Size = new System.Drawing.Size(83, 28);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Save";
+            this.button1.Text = "Guardar";
             this.button1.Transparent = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // futureButton2
-            // 
-            this.futureButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            bloom14.Name = "Blend1";
-            bloom14.Value = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            bloom15.Name = "Blend2";
-            bloom15.Value = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            bloom16.Name = "Blend3";
-            bloom16.Value = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            bloom17.Name = "Border1A";
-            bloom17.Value = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            bloom18.Name = "Border1B";
-            bloom18.Value = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            bloom19.Name = "Border2";
-            bloom19.Value = System.Drawing.Color.Black;
-            bloom20.Name = "Border3";
-            bloom20.Value = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            bloom21.Name = "Line1";
-            bloom21.Value = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            bloom22.Name = "TextShade";
-            bloom22.Value = System.Drawing.Color.Black;
-            bloom23.Name = "Text";
-            bloom23.Value = System.Drawing.Color.DimGray;
-            bloom24.Name = "Corners";
-            bloom24.Value = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.futureButton2.Colors = new Bloom[] {
-        bloom14,
-        bloom15,
-        bloom16,
-        bloom17,
-        bloom18,
-        bloom19,
-        bloom20,
-        bloom21,
-        bloom22,
-        bloom23,
-        bloom24};
-            this.futureButton2.Customization = "HBwc/yAgIP8YGBj/KCgo/zAwMP8AAAD/GBgY/ywsLP8AAAD/aWlp/ygoKP8=";
-            this.futureButton2.Font = new System.Drawing.Font("Verdana", 8F);
-            this.futureButton2.Image = null;
-            this.futureButton2.Location = new System.Drawing.Point(410, 0);
-            this.futureButton2.Name = "futureButton2";
-            this.futureButton2.NoRounding = false;
-            this.futureButton2.Size = new System.Drawing.Size(24, 23);
-            this.futureButton2.TabIndex = 6;
-            this.futureButton2.Text = "x";
-            this.futureButton2.Transparent = false;
-            this.futureButton2.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // NewSerie
             // 

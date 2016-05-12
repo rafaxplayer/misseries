@@ -187,7 +187,7 @@
             this.futureTheme1.Size = new System.Drawing.Size(482, 213);
             this.futureTheme1.SmartBounds = true;
             this.futureTheme1.TabIndex = 1;
-            this.futureTheme1.Text = "News";
+            this.futureTheme1.Text = "No Vistos";
             this.futureTheme1.TransparencyKey = System.Drawing.Color.Empty;
             // 
             // futureButton1
